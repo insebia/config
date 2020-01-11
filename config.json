@@ -1,0 +1,73 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "showBackground": true,
+      "upHeight": 300.0,
+      "padding": 20.0,
+      "radius": 20.0,
+      "fontSize": 26.0,
+      "items": [
+        {
+          "category": 17,
+          "background": "https://tazaj.co/s/banners/Background1.jpg",
+          "image": "https://tazaj.co/s/banners/Fruit.jpg"
+        },
+        {
+          "category": 30,
+          "background": "https://tazaj.co/s/banners/Background2.jpg",
+          "image": "https://tazaj.co/s/banners/Vegetables.jpg"
+        },
+        {
+          "category": 32,
+          "background": "https://tazaj.co/s/banners/Background3.jpg",
+          "image": "https://tazaj.co/s/banners/Meat.jpg"
+        },
+        {
+          "category": 31,
+          "background": "https://tazaj.co/s/banners/Background4.jpg",
+          "image": "https://tazaj.co/s/banners/Poultry.jpg"
+        },
+        {
+          "category": 33,
+          "background": "https://tazaj.co/s/banners/Background5.jpg",
+          "image": "https://tazaj.co/s/banners/Fish.jpg"
+        }
+      ]
+    }
+  ],
+  "VerticalLayout": {
+    "name": "Featured Products",
+    "layout": "list",
+    "category": 15,
+    "limit": 10
+  },
+  "Setting": {
+    "MainColor": "#9bb238",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "cart",
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png"
+    }
+  ]
+}
